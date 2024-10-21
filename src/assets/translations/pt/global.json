@@ -1,3 +1,7 @@
 {
-
+  "navbar": {
+    "home": "Inicio",
+    "profile": "Perfil",
+    "publish": "Publicar"
+  }
 }
