@@ -12,7 +12,7 @@ import NavBar from "./components/NavBar.tsx";
 
 i18next.init({
     interpolation: {escapeValue:false},
-    lng: "en",
+    lng: "pt",
     resources:{
         pt : {
             global: globalPt
@@ -24,6 +24,9 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
       <I18nextProvider i18n={i18next}>
           <NavBar/>
+      </I18nextProvider>
+
+      <I18nextProvider i18n={i18next}>
           <BrowserRouter>
               <Routes>
                   <Route path="/" element={<HomeView/>}/>
