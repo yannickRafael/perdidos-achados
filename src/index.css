@@ -1,4 +1,8 @@
 :root {
+
+  align-items: center;
+  justify-content: center;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -25,7 +29,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+
   min-width: 320px;
   min-height: 100vh;
 }
@@ -53,6 +57,11 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+/*@font-face {*/
+/*  font-family: 'Bakery';*/
+/*  src: local('Rajdhani'), url(./assets/fonts/bakery/bakery.ttf) format('truetype');*/
+/*}*/
 
 @media (prefers-color-scheme: light) {
   :root {
